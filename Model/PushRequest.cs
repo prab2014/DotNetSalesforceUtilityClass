@@ -12,12 +12,8 @@ namespace SalesforcePushUpgrade.Model
         public DateTime ScheduledStartTime { get; set; }
         public string AccessToken { get; set; }
         public string InstanceUrl { get; set; }
-        public string PushReqId { get; set; }
-        /// <summary>
-        /// The status of the push. Valid values are:  Created(default),Scheduled(pending),In Progress,Succeeded,Failed,Aborthed(Canceled)
-        /// </summary>
+        public string PushReqId { get; set; }       
         public string Status { get; set; }
-
         public string ApiVersion { get; set; }
     }
 }
